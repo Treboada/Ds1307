@@ -1,0 +1,22 @@
+{
+	"name": "Ds1307",
+	"version": "1.0.1",
+	"keywords": "library, C, C++, RTC, DS1307, clock, date, time, datetime",
+	"description": "A C/C++ library to use DS1307 RTC chip.",
+	"license": "AGPL-3.0",
+	"homepage": "https://github.com/Treboada/Ds1307",
+	"frameworks": "arduino",
+	"platforms": [ "atmelavr", "espressif8266", "espressif32" ],
+	"examples": "examples/*/*.cpp",
+	"repository": 
+		{
+			"type": "git",
+			"url": "https://github.com/Treboada/Ds1307.git"
+		},
+	"authors": 
+		{
+			"name": "Rafa Couto",
+			"email": "caligari@treboada..net",
+			"url": "http://www.linkedin.com/in/rafacouto"
+		}
+}
