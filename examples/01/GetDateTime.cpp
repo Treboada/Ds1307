@@ -2,7 +2,7 @@
  *
  * Example of getting the date and time from the RTC.
  *
- * @version 1.0.1
+ * @version 1.0.2
  * @author Rafa Couto <caligari@treboada.net>
  * @license GNU Affero General Public License v3.0
  * @see https://github.com/Treboada/Ds1307
@@ -20,13 +20,13 @@ Ds1307 rtc(DS1307_I2C_ADDRESS);
 
 const static char* WeekDays[] =
 {
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday",
-    "Sunday"
+    "Saturday"
 };
 
 

@@ -24,3 +24,13 @@ Bugs, feature requests, contributions are welcome: [Ds1307 issue tracker][ISU01]
 [ISU01]: https://github.com/Treboada/Ds1307/issues
 [LIC01]: LICENSE
 
+## Changelog
+
+### v1.0.2
+
+- Coding 1 in DoW field as Sunday (issue #1).
+
+### v1.0.1
+
+- Initial release.
+

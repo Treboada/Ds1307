@@ -2,7 +2,7 @@
  *
  * Ds1307 class.
  *
- * @version 1.0.1
+ * @version 1.0.2
  * @author Rafa Couto <caligari@treboada.net>
  * @license GNU Affero General Public License v3.0
  * @see https://github.com/Treboada/Ds1307
@@ -50,13 +50,13 @@ class Ds1307
          * Days of week
          */
         enum DOW : uint8_t {
-            DOW_MON = 1,
-            DOW_TUE = 2,
-            DOW_WED = 3,
-            DOW_THU = 4,
-            DOW_FRI = 5,
-            DOW_SAT = 6,
-            DOW_SUN = 7
+            DOW_SUN = 1,
+            DOW_MON = 2,
+            DOW_TUE = 3,
+            DOW_WED = 4,
+            DOW_THU = 5,
+            DOW_FRI = 6,
+            DOW_SAT = 7
         };
 
         /**

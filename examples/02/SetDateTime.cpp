@@ -2,7 +2,7 @@
  *
  * Example of setting the date and time to the RTC.
  *
- * @version 1.0.1
+ * @version 1.0.2
  * @author Rafa Couto <caligari@treboada.net>
  * @license GNU Affero General Public License v3.0
  * @see https://github.com/Treboada/Ds1307
@@ -17,13 +17,13 @@
 
 const static char* WeekDays[] =
 {
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday",
-    "Sunday"
+    "Saturday"
 };
 
 
@@ -84,7 +84,9 @@ void setup()
     Serial.begin(9600);
 
     show();
-    Serial.println("Input the date and time (YYMMDDWhhmmss): ");
+    Serial.println("Y=Year, M=Month, D=day, W=day_of_Week (1=Sunday..7=Saturday)");
+    Serial.println("h=hour, m=minute, s=second");
+    Serial.println("Input the current date and time (YYMMDDWhhmmss): ");
 }
 
 
