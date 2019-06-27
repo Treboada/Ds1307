@@ -1,6 +1,6 @@
 {
 	"name": "Ds1307",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"keywords": "library, C, C++, RTC, DS1307, clock, date, time, datetime",
 	"description": "A C/C++ library to use DS1307 RTC chip.",
 	"license": "AGPL-3.0",
